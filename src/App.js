@@ -1,10 +1,7 @@
 import React,{useState}  from 'react';
 import './App.css';
 import Arrow from './images/icon-arrow-down.svg';
-import ArrowUp from './images/icon-arrow-up.svg';
 import imgWoman from './images/illustration-woman-online-mobile.svg';
-// import bgimgDesktop from './images/bg-pattern-desktop.svg';
-// import imgDesktop from './images/illustration-box-desktop.svg';
 
 const Data = [
   {
@@ -46,14 +43,15 @@ const Data = [
           </div>
 
           <div className='text'>
+            <h1>FAQ</h1>
             {Data.map((item,i)=>(
               <div className='items'>
                 <div className='title' onClick={() => toggle(i)}>
-                  <p>{item.question}</p>
+                  {item.question}
                   {selec === i ? <img src={Arrow} />: <img style={{transform:'rotate(180deg)'}} src={Arrow}/>}
                   </div>
                    <div className={selec === i ? 'content-show': 'content'}>
-                     <p>{item.answer}</p>
+                     {item.answer}
                      </div>
                 </div>
             ))}
