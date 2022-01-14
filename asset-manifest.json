@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/FAQ-challange/static/css/main.16a731d5.css",
+    "main.js": "/FAQ-challange/static/js/main.3ae98628.js",
+    "static/media/illustration-woman-online-mobile.svg": "/FAQ-challange/static/media/illustration-woman-online-mobile.fe928f9c476ef6d332672b3ab38268fd.svg",
+    "static/media/bg-pattern-desktop.svg": "/FAQ-challange/static/media/bg-pattern-desktop.f51e07a2f52390c60484.svg",
+    "index.html": "/FAQ-challange/index.html",
+    "static/media/icon-arrow-down.svg": "/FAQ-challange/static/media/icon-arrow-down.852fa301a0e795e07c5966b1c156025f.svg",
+    "main.16a731d5.css.map": "/FAQ-challange/static/css/main.16a731d5.css.map",
+    "main.3ae98628.js.map": "/FAQ-challange/static/js/main.3ae98628.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16a731d5.css",
+    "static/js/main.3ae98628.js"
+  ]
+}
